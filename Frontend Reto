@@ -1,0 +1,135 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 40%
+    background-color: #f1f1f1
+    position: fixed
+    height:100%
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 0 10px 20px;
+    text-decoration:none;
+}
+
+li a.active {
+    background-color: #483d8b;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #666;
+    color: white
+}
+</style>
+    </head>
+    <body bgcolor="#f1f1f1">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Once Upon a Time</h1>
+            </header>
+        </div>
+        <table>
+            <h5>
+            <td valign = top>
+                <ul>
+                  <li><a class="active" href="#home">Home</a></li>
+                  <li><a href="#noticias">Noticias</a></li>
+                  <li><a href="#episodios">Episodios</a></li>
+                  <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </td>
+            </h5>
+            <td>
+                        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+                    <header>
+                        <h1>Vuelve Gastón</h1>
+                        <time> Viernes, 08 de enero del 2016
+                        <img src="http://3.bp.blogspot.com/-W1ttCePqcvg/VpAsld7dTJI/AAAAAAAAPj8/F7cEVMVLeDE/s1600/wb-wes-brown-33965199-640-472.jpg" width="500" height="300">
+                        <p>Wes Brown será el encargado de dar vida al personaje que conocimos en la primera temporada interpretado por Sage Blockebank, sigue leyendo si quieres conocer los detallers de su regreso.
+                            <a href="#">Más información</a></p>
+                        <footer>
+                            <a href="#">Gaston</a>
+                            <a href="#">Wes Brown</a>
+                        </footer>
+                    </header>
+                    <section>
+                        <h2>Rodaje del 5x16</h2>
+                        <time> Martes, 05 de enero del 2016
+                        <img src="http://2.bp.blogspot.com/-G_FUZemDT7E/VovAJ3GvvQI/AAAAAAAAPiM/0sN-4QZuwbQ/s1600/rebeccamader.png" width="500" height="350">
+                        <p>Les dejamos a continuación con varias fotos en el set de rodaje perteneciente a los días 4 - 7 de enero. <a href="#">Más información</a></p>
+                    </section>
+                    <section>
+                        <h2>Poster promocional 5B</h2>
+                        <time> Lunes, 04 de enero del 2016
+                        <br>
+                        <img src="http://2.bp.blogspot.com/-1VseqrsZC5A/VorYS8uLT-I/AAAAAAAAPh8/O9-ZD9-7Bgc/s1600/OUAT5Bposter.jpg" width="250" height="400">
+                        <p>ABC ha lanzado este poster con motivo del estreno de la segunda parte de la quinta temporada de OUAT. Como podemos apreciar, en la imagen aparece Hook (a quienes los heroes intentaran traer del inframundo) junto a la archiconocida manzana de anteriores posters promocionales que esta vez aparece entre llamas. ¿Que te parece? </p>
+                        <footer>
+                            <a href="#">Hook</a>
+                            <a href="#">OUAT</a>
+                        </footer>
+                        <b>Envianos tu comentario:</b>
+                        <br>
+                        <textarea rows="4" cols="50">Escribe tu comentario aqui.</textarea>
+                        <br>
+                        <input type="submit" value = "Enviar">
+                        <input type="button" id="Cancel" onclick="cancelar()" value = "Cancel">
+                    </section>
+                </article>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+            </td>
+        </table>
+        </div>
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>Maria Fernanda Robatti</h3>
+            </footer>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
